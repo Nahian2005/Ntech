@@ -25,6 +25,8 @@
 
    <link href="style.css" rel="stylesheet" type="text/css">
 
+   <script src="https://kit.fontawesome.com/d5a431c491.js" crossorigin="anonymous"></script>
+
 
 
     
@@ -364,56 +366,6 @@ details[open] > summary {
 }
 
 
-.menu{
-
-  overflow: hidden;
-
-   background-color: #454545;
-
-   height: 50px;
-
-   
-   
-}
-
-
-.menu a {
-
-   float: right;
-   margin: 5pt 20pt;
-
-   font-size: 17pt;
-
-   text-decoration: none;
-
-   display: flex;
-
-   color: whitesmoke;
-
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-  font-weight: bold;
-
-   
-   
-}
-
-
-.menu a:hover{
-
-
-   background-color: red;
-
-   border: black solid 3px;
-
-   border-radius: 10pt;
-
-   padding: 4pt;
-
-   transition: background  0.5s;
-
-   transition: padding 0.8s;
-}
 
 
 
@@ -476,29 +428,34 @@ details[open] > summary {
 
 <body style="background-image: url('bg2.jpg');  background-attachment: fixed; background-size: 100% 100%; margin: 0;">
 
-   <div class="menu">
+  <nav>
 
-      <a href="#">
-         Feedback
-      </a>
+      <input type="checkbox" id="check">
 
-      <a href="#">
-         Support
-      </a>
+      <label for="check" class="checkbtn">
 
-      <a href="index7.html">
-         Contact
-      </a>
+        <i class='fas fa-align-justify'></i>
+      </label>
 
-      
-      <a href="https://www.theverge.com/tech">
-         Tech News
-      </a>
+<label >
 
-      <img src="logo3.png" height="58" width="111" style="  text-align: left; display: block;" >
-   </div>
+    <img src="logo3.png" height="69" width="111">
 
-</div>
+</label>
+
+
+<ul>
+
+
+ <li><a href="#"> Contact</a>  </li>
+ <li><a href="#"> Support</a>  </li>
+ <li><a href="#"> Feedback</a>  </li>
+ <li><a href="#"> Tech News</a>  </li>
+ 
+
+</ul>
+
+    </nav>
 
 &nbsp
 &nbsp
