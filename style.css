@@ -45,6 +45,8 @@ margin-top: auto;
     padding: 0;
 
     margin: 0;
+
+    
 }
 
 .box{
@@ -116,6 +118,7 @@ nav ul li a{
     text-transform: uppercase;
     padding: 7 16px;
     border-radius: 3;
+    text-decoration: none
 }
 
 a:hover{
